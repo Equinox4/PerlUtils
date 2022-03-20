@@ -4,7 +4,8 @@ set -eu
 
 if [ $# -lt 1 ]; then
     cat << EOF
-This script allow you to build a ready-to-upload perl package on the Pause repository.
+This script allow you to build a ready-to-upload perl package on the PAUSE.
+Currently works from a subversion repository.
 
 Usage:
 $(basename $0) project_dir [output_dir]
