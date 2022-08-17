@@ -4,7 +4,7 @@ set -eu
 
 if [ $# -lt 1 ]; then
     cat << EOF
-This script allow you to build a ready-to-upload perl package on the PAUSE.
+This script allows you to build a ready-to-upload perl package on the PAUSE.
 Currently works from a subversion repository.
 
 Usage:
